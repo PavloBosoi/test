@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: content-box;
+}
+html{
+    font-size: 10px;
+}
+li{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+
+
+.svg.radial-progress {
+    position: relative;
+    display: inline-block;
+}
+
+svg {
+    transform: rotate(270deg);
+}
+
+circle {
+    stroke-width: 5rem;
+    fill: transparent;
+    transform: rotate(0.1deg); // to fix Firefox
+}
+
+.radial-progress-background {
+    stroke: #9dfdc7;
+}
+
+.radial-progress-cover {
+    stroke: #DEDEDE;
+    stroke-width: 5rem;
+    border: 12px solid red;
+}
+
+.radial-progress-center {
+    fill: #fff;
+}
+
+.radial-fill {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.stroke-cyan {
+    stroke: #61d2b4;
+/*    stroke-dasharray: 75%,55%;
+    stroke-dashoffset: 20%;*/
+}
+
+
