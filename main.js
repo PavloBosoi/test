@@ -17,6 +17,7 @@ function ready(){
             part = 5;//parts of lines
 
 
+  
 
         var intervalId = setInterval(function () {
             var offset = -(circumference / maxCount) * currentCount + 'rem',
