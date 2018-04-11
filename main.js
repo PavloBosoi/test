@@ -9,6 +9,7 @@ function ready(){
             el.setAttribute('r', radius + 'rem');
         });
 
+
         document.querySelector('.radial-progress-center').setAttribute('r', (radius - 0.01 + 'rem'));
 
         var currentCount = 1,
